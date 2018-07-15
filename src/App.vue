@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header-band />
+    <!-- <HelloWorld msg="Welcome to Moelis Redcape Equity Raising App"/> -->
+    <br><br>
+    <main>
+      <router-view/>
+    </main>
+    <br><br>
+    <footer-band />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import HeaderBand from './components/HeaderBand.vue';
+import FooterBand from './components/FooterBand.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    HeaderBand,
+    FooterBand,
   },
 };
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import '../src/assets/styles/style.scss'
 </style>
+
