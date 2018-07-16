@@ -12,14 +12,10 @@
                     </div>
                     <div class="navbar-end">
                         <span class="is-size-5">
-                            Offer Information Line
-                        </span>
-                        <!-- <span class="is-size-7">
-                            1800 634 850 (within Australia)
-                        </span> -->
-                        <!-- <div class="navbar-item">
+                            Offer Information Line<br>
+                            1800 634 850 (within Australia)<br>
                             +61 2 9290 9681 (International)
-                        </div> -->
+                        </span>
                     </div>
                 </div>
             </div>

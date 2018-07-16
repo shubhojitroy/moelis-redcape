@@ -60,3 +60,13 @@ p {
 .navbar-item img {
     max-height:  100%;
 }
+
+.hero-body {
+    padding: 9rem 1.5rem 3rem;
+}
+.hero.is-primary{
+    background: url('./assets/images/get-in-touch-background.jpg') top repeat-x;
+    min-width: 100%;
+    display: block;
+    border-bottom: 0.7255rem solid rgba(27, 26, 26, 0.3); 
+}

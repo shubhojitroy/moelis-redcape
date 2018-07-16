@@ -46,12 +46,12 @@
           <div class="navbar-menu">
             <div class="navbar-start">
               <div class="control">
-                <button class="button is-primary">Previous</button>
+                <router-link to="/login" class="button is-primary">Previous</router-link>
               </div>
             </div>
             <div class="navbar-end">
               <div class="control">
-                <button class="button is-primary">Next</button>
+                <router-link to="/application" class="button is-primary">Next</router-link>
               </div>
             </div>
           </div>

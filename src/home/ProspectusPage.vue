@@ -92,7 +92,7 @@
               </div>
               <div class="navbar-end">
                 <div class="control">
-                  <button class="button is-primary">Offer</button>
+                  <router-link to="/login" class="button is-primary">Offer</router-link>
                 </div>
               </div>
             </div>

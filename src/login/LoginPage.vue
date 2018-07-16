@@ -23,7 +23,7 @@
             <!-- <selected-country /> -->
             <div class="space"></div>
             <div class="control">
-              <button class="button is-primary">Submit</button>
+              <router-link to="/rego-details" class="button is-primary">Submit</router-link>
             </div>
           </form>
         </div>
